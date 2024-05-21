@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nextclass - Documentation</title>
+
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/prism.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/icons.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+</head>
+<body>
+  <div id="wrapper">
+    <div id="content">
+      <section class="contet_doc">
+        <div class="container">
+          <div class="col-md-3">
+            <div class="item_nav_side">
+              <div class="brand_top">
+                  <span><img src="assets/img/logo.png"></span>
+              </div>
+
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                  aria-controls="v-pills-home" aria-selected="true">
+                  <i class="tio home_outlined"></i>
+                  Acerca del proyecto
+                </a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                  aria-controls="v-pills-profile" aria-selected="false">
+                  <i class="tio folder_outlined"></i>
+                 Estructura
+                </a>
+
+                <a class="nav-link" id="v-pills-source-tab" data-toggle="pill" href="#v-pills-source" role="tab"
+                  aria-controls="v-pills-source" aria-selected="false">
+                  <i class="tio document_text_outlined"></i>
+                  Arquitectura
+                </a>
+
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+                  aria-controls="v-pills-messages" aria-selected="false">
+                  <i class="tio code"></i>
+                  Body Structure
+                </a>
+                                
+                
+                <a class="nav-link" id="v-pills-support-tab" data-toggle="pill" href="#v-pills-support" role="tab"
+                  aria-controls="v-pills-support" aria-selected="false">
+                  <i class="tio help_outlined"></i>
+                  Support
+                </a>
+              </div>
+            </div>
+          </div>
+          <main>
+            <div class="col-md-9 ml-auto">
+              <div class="content_structure">
+
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane item_nav fade show active" id="v-pills-home" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab">
+                    <div class="title_cont">
+                      <h1 id="item-0" style="font-weight: 600;">Acerca del proyecto</h1>
+                      <img src="assets/img/TemplateMockUP.jpg"/>
+                      <br><br><p>
+                        El proyecto es una aplicación web de asesoria académica, diseñado para facilitar la comunicación y el seguimiento académico entre estudiantes y profesores. Implementada en Java
+                        utilizando el framework Spring Boot, esta aplicación ofrece una solución robusta y escalable para gestionar sesiones de
+                        asesoría, consultas, y recursos educativos de manera eficiente.
+                      </p>
+                    </div>
+                    <div class="title_cont">
+                      <h2 id="item-1">First Steps</h2>
+                      <p>
+                        All the files are well organized, its so easy to work with the template.
+                      </p>
+                    </div>
+                    <ul>
+                      <li>
+                        Unzip the files.
+                      </li>
+                      <li>
+                        Open <span class="c-blue">"Rakon-MultiPurpose Template"</span> folder.
+                      </li>
+                      <li>
+                        You will find two folders, One is for <Span class="c-blue">"Source files"</Span> it has icons
+                        , illustration and license of the used font "circular-std-master"
+                        the second is for "main-file" it has <span class="c-blue">Documentation</span> folder and <span
+                          class="c-blue">rakon-template</span> folder.
+                      </li>
+                      <li>
+                        rakon-template Folder ==> Contains on
+                        <ol>
+                          <li>
+                            <strong>html</strong> Folder Contains HTML Files.
+                          </li>
+                          <li>
+                            <strong>html-rtl</strong> Folder Contains HTML Files.
+                          </li>
+                          <li>
+                            <strong>Assets</strong> Folder Contains on Css, Fonts, Img and Js.
+                            <ol>
+                              <li>
+                                Fonts Contains on icon files "The-Icon-of" and
+                                text-font Folder that used in the site.
+                              </li>
+                            </ol>
+                          </li>
+
+                        </ol>
+                      </li>
+                    </ul>
+
+                  </div>
+                  <div class="tab-pane item_nav fade" id="v-pills-profile" role="tabpanel"
+                    aria-labelledby="v-pills-profile-tab">
+                    <div class="title_cont">
+                      <h4>Main File Structure</h4>
+                      <p>
+                        All the files are well organized, its so easy to work with the template.
+                      </p>
+                    </div>
+                    <xmp>
+                      rakon-template/
+
+                      ├── assets/css/
+
+                      | └── animate.css
+                      | └── bootstrap.min.css
+                      | └── aos.css
+                      | └── icons.css
+                      | └── main.css
+                      | └── main.scss
+                      | └── main-rtl.css
+                      | └── main-rtl.scss
+                      | └── normalize.css
+                      | └── swiper.min.css
+
+                      ├── assets/css/sass/components
+
+                      | └── _alert.scss
+                      | └── _breadcrumb.scss
+                      | └── _button.scss
+                      | └── _dropdowns.scss
+                      | └── _effects.scss
+                      | └── _variables.scss
+                      | └── _form.scss
+                      | └── _modal.scss
+                      | └── _pagination.scss
+                      | └── _toasts.scss
+                      | └── _tooltip.scss
+
+                      ├── assets/sass/helpers
+                      | └── _mixins.scss
+                      | └── _variables.scss
+
+                      ├── assets/sass/layout
+
+                      | └── _about.scss
+                      | └── _account.scss
+                      | └── _banner_section.scss
+                      | └── _blog.scss
+                      | └── _contact.scss
+                      | └── _crypto.scss
+                      | └── _faq.scss
+                      | └── _features.scss
+                      | └── _footer.scss
+                      | └── _header.scss
+                      | └── _logos.scss
+                      | └── _map.scss
+                      | └── _newsletter.scss
+                      | └── _other.scss
+                      | └── _pricing.scss
+                      | └── _products.scss
+                      | └── __projects.scss
+                      | └── _search.scss
+                      | └── _services.scss
+                      | └── _slider.scss
+                      | └── _sliderscroll.scss
+                      | └── _state.scss
+                      | └── _tabs.scss
+                      | └── _team.scss
+                      | └── _testimonial.scss
+                      | └── _timeline.scss
+
+                      ├── assets/sass/pages
+
+                      | └── _globalpage.scss
+                      | └── _rtl.scss
+
+                      |
+                      ├── assets/fonts
+
+                      | └── The-Icon-of.eot
+                      | └── The-Icon-of.svg
+                      | └── The-Icon-of.ttf
+                      | └── The-Icon-of.woff
+                      | └── The-Icon-of.woff2
+
+                      |
+                      ├── assets/fonts/text-font
+
+                      | └── CircularStd
+
+                      |
+                      ├── assets/js/
+                      │ ├── bootstrap.min.js
+                      │ ├── jquery-3.3.1.js
+                      │ ├── jquery-migrate.min.js
+                      │ ├── main.js
+                      │ ├── popper.min.js
+
+                      |
+                      ├── assets/js/pages
+                      │ ├── agency.js
+                      │ ├── crypto.js
+                      │ ├── hosting.js
+                      │ ├── interior.js
+                      │ ├── mobile.js
+                      │ ├── sass.js
+                      │ ├── sass2.js
+
+                      |
+                      ├── assets/js/vendor
+                      │ ├── animation.gsap.js
+                      │ ├── charming.min.js
+                      │ ├── countdown.js
+                      │ ├── cryptodark.js
+                      │ ├── debug.addIndicators.min.js
+                      │ ├── aos.js
+                      │ ├── imagesloaded.pkgd.min.js
+                      │ ├── jquery.counterup.min.js
+                      │ ├── jquery.bxslider.min.js
+                      │ ├── particles.min.js
+                      │ ├── ScrollMagic.js
+                      │ ├── sharer.js
+                      │ ├── simpleParallax.min.js
+                      │ ├── swiper.min.js
+                      │ ├── sticky.min.js
+                      │ ├── TweenMax.min.js
+                      │ ├── waypoints.min.js
+
+                      │
+                      ├── html,html-rtl Folder
+
+
+                      ├── about:
+                      ├── about.html
+                      ├── about-2.html
+                      ├── about-3.html
+
+                      ├── account:
+                      ├── forgot-2.html
+                      ├── forgot-3.html
+                      ├── signin-2.html
+                      ├── signin-3.html
+                      ├── signup.html
+                      ├── signup-2.html
+                      ├── signup-3.html
+
+                      ├── blog:
+                      ├── blog-classic.html
+                      ├── blog-classic-three-columen.html
+                      ├── blog-creative.html
+                      ├── blog-standard.html
+                      ├── single-background-color.html
+                      ├── single-blog.html
+                      ├── single-featured-image.html
+
+                      ├── contact:
+                      ├── contact-agency.html
+                      ├── contact-blocks.html
+                      ├── contact-classic.html
+                      ├── contact-corporate.html
+                      ├── contact-creative.html
+                      ├── contact-simple.html
+
+                      ├── elements:
+                      ├── accordion.html
+                      ├── alert.html
+                      ├── blog-posts.html
+                      ├── button.html
+                      ├── call-to-action.html
+                      ├── carousel.html
+                      ├── clients-logo.html
+                      ├── contact-form.html
+                      ├── countdown.html
+                      ├── counter.html
+                      ├── grid.html
+                      ├── heading.html
+                      ├── iconbox.html
+                      ├── parallax.html
+                      ├── pricing-table.html
+                      ├── process.html
+                      ├── services.html
+                      ├── social-networks.html
+                      ├── tabs.html
+                      ├── team.html
+                      ├── pricing-table.html
+                      ├── testimonial.html
+                      ├── video.html
+
+                      ├── home:
+                      ├── mobile-app-2.html
+                      ├── mobile-app-3.html
+                      ├── charity.html
+                      ├── workspace.html
+                      ├── software.html
+                      ├── agency.html
+                      ├── crypto-currency.html
+                      ├── crypto-dark.html
+                      ├── hosting.html
+                      ├── Interior.html
+                      ├── mobile-app.html
+                      ├── sass-modern.html
+                      ├── sass-products.html
+                      ├── portfolio.html
+
+                      ├── pricing:
+                      ├── pricing-list.html
+
+                    </xmp>
+
+                  </div>
+                  <div class="tab-pane item_nav fade" id="v-pills-messages" role="tabpanel"
+                    aria-labelledby="v-pills-messages-tab">
+                    <div class="title_cont">
+                      <h4 id="item-2">Body Structure</h4>
+                      <p>
+                        All the files are well organized, its so easy to work with the template.
+                      </p>
+                    </div>
+                    <h5>Css Files</h5>
+                    <pre>
+                      <code class="language-markup">
+                        &lt;!-- Bootstrap 4.5 --&gt;
+                        &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/bootstrap.min.css&quot; type=&quot;text/css&quot; /&gt;
+                        &lt;!-- Bootstrap rtl 4.2 --&gt;
+                        &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/bootstrap-rtl.min.css&quot; type=&quot;text/css&quot; /&gt;
+                        &lt;!-- animate --&gt;
+                        &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/animate.css&quot; type=&quot;text/css&quot; /&gt;
+                        &lt;!-- Swiper --&gt;
+                        &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/swiper.min.css&quot; /&gt;
+                        &lt;!-- aos --&gt;
+                        &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/aos.css&quot; type=&quot;text/css&quot; /&gt;
+                        &lt;!-- icons --&gt;
+                        &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/icons.css&quot; type=&quot;text/css&quot; /&gt;
+                        &lt;!-- main css --&gt;
+                        &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/main.css&quot; type=&quot;text/css&quot; /&gt;
+                        &lt;!-- main rtl css --&gt;
+                        &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/main-rtl.css&quot; type=&quot;text/css&quot; /&gt;
+                        &lt;!-- normalize --&gt;
+                        &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/normalize.css&quot; type=&quot;text/css&quot; /&gt;
+                      </code>
+                    </pre>
+                    <h5>Default Header</h5>
+                    <pre>
+                      <code class="language-markup">
+
+                        &lt;!-- Start header --&gt;
+              &lt;header class=&quot;header-nav-center&quot; id=&quot;myNavbar&quot;&gt;
+              &lt;div class=&quot;container&quot;&gt;
+              &lt;!-- navbar --&gt;
+              &lt;nav class=&quot;navbar navbar-expand-lg navbar-light&quot;&gt;
+                &lt;a class=&quot;navbar-brand&quot; href=&quot;sass-products.html&quot;&gt;
+                  &lt;img class=&quot;logo&quot; src=&quot;../Rakon/assets/img/logo.svg&quot; alt=&quot;logo&quot; /&gt;
+                  Rakon
+                &lt;/a&gt;
+
+                &lt;button class=&quot;navbar-toggler menu ripplemenu&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarSupportedContent&quot; aria-controls=&quot;navbarSupportedContent&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+                  &lt;svg viewBox=&quot;0 0 64 48&quot;&gt;
+                    &lt;path d=&quot;M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37&quot;&gt;&lt;/path&gt;
+                    &lt;path d=&quot;M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24&quot;&gt;&lt;/path&gt;
+                    &lt;path d=&quot;M45,33 L19,33 C-8,33 6,-2 22,14 L45,37&quot;&gt;&lt;/path&gt;
+                  &lt;/svg&gt;
+                &lt;/button&gt;
+
+                &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarSupportedContent&quot;&gt;
+                  &lt;ul class=&quot;navbar-nav mx-auto nav-pills&quot;&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;#home&quot;&gt;Home&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;#services&quot;&gt;Services&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;#Products&quot;&gt;Products&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;#Pricing&quot;&gt;Pricing&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;#faq&quot;&gt;FAQ&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;#Testimonial&quot;&gt;Testimonial&lt;/a&gt;
+                    &lt;/li&gt;
+                  &lt;/ul&gt;
+                  &lt;div class=&quot;nav_account&quot;&gt;
+                    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-toggle=&quot;modal&quot; data-target=&quot;#mdllLogin&quot;&gt;Sign in&lt;/button&gt;
+                    &lt;a href=&quot;#Testimonial&quot; class=&quot;btn scale btn_sm_primary bg-blue c-white effect-letter rounded-pill&quot;&gt;
+                      Try for free
+                    &lt;/a&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/nav&gt;
+              &lt;!-- End Navbar --&gt;
+              &lt;/div&gt;
+              &lt;!-- end container --&gt;
+              &lt;/header&gt;
+              &lt;!-- End header --&gt;
+
+                      </code>
+                    </pre>
+
+                    <div class="my-4">
+                      <h5>All Sections are inside the tag <code>&lt;main&gt;</code></h5>
+                      <p>The base structure was organized by row, col-** class</p>
+                    </div>
+
+                    <pre>
+                      <code class="language-markup">
+                        &lt;main data-spy=&quot;scroll&quot; data-target=&quot;#navbar-example2&quot; data-offset=&quot;0&quot;&gt;
+                    &lt;!-- Start Banner Section --&gt;
+                    &lt;section class=&quot;demo_1 banner_section&quot; id=&quot;home&quot;&gt;
+                      &lt;div class=&quot;container&quot;&gt;
+                        &lt;div class=&quot;row justify-content-md-center text-center&quot;&gt;
+                          &lt;div class=&quot;col-md-6&quot;&gt;
+                            &lt;div class=&quot;banner_title&quot;&gt;
+                              &lt;h1&gt;Your Visual Bookmark Manager&lt;/h1&gt;
+                              &lt;p&gt;
+                                The project management tool teams use to stay organized, avoid delays, and have time for the work that matters most.
+                              &lt;/p&gt;
+                              &lt;button type=&quot;button&quot; class=&quot;btn scale rounded-pill btn-video btn_video&quot; data-toggle=&quot;modal&quot; data-src=&quot;https://www.youtube.com/embed/VvHoHw5AWTk&quot; data-target=&quot;#mdllVideo&quot;&gt;
+                                &lt;span class=&quot;tio play_circle&quot;&gt;&lt;/span&gt;
+                                Discover this video
+                              &lt;/button&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;!-- image Product --&gt;
+                          &lt;div class=&quot;image_product&quot;&gt;
+                            &lt;img src=&quot;../Rakon/assets/img/web-sass.png&quot; alt=&quot;&quot; /&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/section&gt;
+                    &lt;!-- End Banner --&gt;
+                  &lt;/main&gt;
+                      </code>
+                    </pre>
+
+                    <div class="my-4">
+                      <h5>Tilte Section</h5>
+                      <p>
+                        You can use class <code>.title_sections</code> for titles
+                      </p>
+                    </div>
+
+                    <pre>
+                      <code class="language-markup">
+                        &lt;div class=&quot;title_sections&quot;&gt;
+                                          &lt;div class=&quot;before_title&quot;&gt;
+                                            &lt;span&gt;Cryptocurrency&lt;/span&gt;
+                                            &lt;span&gt;Portfolio&lt;/span&gt;
+                                          &lt;/div&gt;
+                                          &lt;h2&gt;A project planner that won&apos;t let anything slip through the cracks&lt;/h2&gt;
+                                          &lt;p&gt;
+                                            Lovely to look at and easy-to-use, Toggl Plan gives teams a visual overview of who’s doing what, and what’s coming up next. That means less stress and better results.
+                                          &lt;/p&gt;
+                                        &lt;/div&gt;
+                      </code>
+                    </pre>
+
+                    <h5 class="my-4">Default Footer</h5>
+                    <pre>
+                      <code class="language-markup">
+                        &lt;!-- Start footer --&gt;
+                            &lt;footer class=&quot;footer_short position-relative bg-white padding-py-3 z-index-1&quot;&gt;
+                              &lt;div class=&quot;container&quot;&gt;
+                                &lt;div class=&quot;row justify-content-md-center text-center&quot;&gt;
+                                  &lt;div class=&quot;col-md-8&quot;&gt;
+                                    &lt;a class=&quot;logo c-dark&quot; href=&quot;sass-products.html&quot;&gt;
+                                      &lt;img src=&quot;../Rakon/assets/img/logo.svg&quot; alt=&quot;&quot;&gt;
+                                      Rakon
+                                    &lt;/a&gt;
+                                    &lt;div class=&quot;social--media&quot;&gt;
+                                      &lt;a href=&quot;#&quot; class=&quot;btn so-link&quot;&gt;
+                                        &lt;span class=&quot;tio appstore&quot;&gt;&lt;/span&gt;
+                                      &lt;/a&gt;
+                                      &lt;a href=&quot;#&quot; class=&quot;btn so-link&quot;&gt;
+                                        &lt;span class=&quot;tio github&quot;&gt;&lt;/span&gt;
+                                      &lt;/a&gt;
+                                      &lt;a href=&quot;#&quot; class=&quot;btn so-link&quot;&gt;
+                                        &lt;span class=&quot;tio instagram&quot;&gt;&lt;/span&gt;
+                                      &lt;/a&gt;
+                                      &lt;a href=&quot;#&quot; class=&quot;btn so-link&quot;&gt;
+                                        &lt;span class=&quot;tio google&quot;&gt;&lt;/span&gt;
+                                      &lt;/a&gt;
+                                      &lt;a href=&quot;#&quot; class=&quot;btn so-link&quot;&gt;
+                                        &lt;span class=&quot;tio twitter&quot;&gt;&lt;/span&gt;
+                                      &lt;/a&gt;
+                                      &lt;a href=&quot;#&quot; class=&quot;btn so-link&quot;&gt;
+                                        &lt;span class=&quot;tio facebook_square&quot;&gt;&lt;/span&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;other--links&quot;&gt;
+                                      &lt;a href=&quot;#&quot;&gt;White paper&lt;/a&gt;
+                                      &lt;a href=&quot;#&quot;&gt;Support&lt;/a&gt;
+                                      &lt;a href=&quot;#&quot;&gt;API&lt;/a&gt;
+                                      &lt;a href=&quot;#&quot;&gt;Privacy Policy&lt;/a&gt;
+                                      &lt;a href=&quot;#&quot;&gt;Cookie Policy&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;opyright&quot;&gt;
+                                      &lt;p&gt;
+                                        © 2020 &lt;a href=&quot;https://themeforest.net/user/orinostu&quot; target=&quot;_blank&quot;&gt;OrinoStu.&lt;/a&gt; All Right Reseved
+                                      &lt;/p&gt;
+                                    &lt;/div&gt;
+
+                                  &lt;/div&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/footer&gt;
+                            &lt;!-- End. Footer --&gt;
+                      </code>
+                    </pre>
+
+                    <div class="my-4">
+                      <h5>JavaScript Fils</h5>
+                      <p>
+                        Add JavaScript before end the tag of <code>&lt;/body&gt;</code>
+                      </p>
+                    </div>
+
+                    <pre>
+                      <code class="language-markup">
+                        &lt;!-- jquery --&gt;
+                        &lt;script src=&quot;assets/js/jquery-3.5.0.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- jquery-migrate --&gt;
+                        &lt;script src=&quot;assets/js/jquery-migrate.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- popper --&gt;
+                        &lt;script src=&quot;assets/js/popper.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- bootstrap --&gt;
+                        &lt;script src=&quot;assets/js/bootstrap.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!--
+                           ============
+                           vendor file
+                           ============
+                            --&gt;
+                        &lt;!-- particles --&gt;
+                        &lt;script src=&quot;assets/js/vendor/particles.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- TweenMax --&gt;
+                        &lt;script src=&quot;assets/js/vendor/TweenMax.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- ScrollMagic --&gt;
+                        &lt;script src=&quot;assets/js/vendor/ScrollMagic.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- animation.gsap --&gt;
+                        &lt;script src=&quot;assets/js/vendor/animation.gsap.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- addIndicators --&gt;
+                        &lt;script src=&quot;assets/js/vendor/debug.addIndicators.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- Swiper js --&gt;
+                        &lt;script src=&quot;assets/js/vendor/swiper.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- countdown --&gt;
+                        &lt;script src=&quot;assets/js/vendor/countdown.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- simpleParallax --&gt;
+                        &lt;script src=&quot;assets/js/vendor/simpleParallax.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- waypoints --&gt;
+                        &lt;script src=&quot;assets/js/vendor/waypoints.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- counterup --&gt;
+                        &lt;script src=&quot;assets/js/vendor/jquery.counterup.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- charming --&gt;
+                        &lt;script src=&quot;assets/js/vendor/charming.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- imagesloaded --&gt;
+                        &lt;script src=&quot;assets/js/vendor/imagesloaded.pkgd.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- aos --&gt;
+                        &lt;script src=&quot;assets/js/vendor/aos.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- BX-Slider --&gt;
+                        &lt;script src=&quot;assets/js/vendor/jquery.bxslider.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- main file --&gt;
+                        &lt;script src=&quot;assets/js/main.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                      </code>
+                    </pre>
+
+                    <div class="my-4">
+                      <h5>JavaScript Files for pages</h5>
+                      <p>
+                        JavaScript codes for some pages
+                      </p>
+                    </div>
+
+                    <pre>
+                      <code class="language-markup">
+                        &lt;!-- agency --&gt;
+                        &lt;script src=&quot;assets/js/pages/agency.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- crypto --&gt;
+                        &lt;script src=&quot;assets/js/pages/crypto.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- hosting --&gt;
+                        &lt;script src=&quot;assets/js/pages/hosting.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- interior --&gt;
+                        &lt;script src=&quot;assets/js/pages/interior.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- mobile --&gt;
+                        &lt;script src=&quot;assets/js/pages/mobile.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- sass --&gt;
+                        &lt;script src=&quot;assets/js/pages/sass.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                        &lt;!-- sass2 --&gt;
+                        &lt;script src=&quot;assets/js/pages/sass2.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                      </code>
+                    </pre>
+
+                  </div>
+                 
+     
+                  <div class="tab-pane item_nav fade" id="v-pills-source" role="tabpanel"
+                    aria-labelledby="v-pills-source-tab">
+                    <div class="title_cont">
+                      <h5>Backend</h5>
+                      <ul>
+                        <li>Java</li>
+                        <li>Spring boot</li>
+                        <li>Spring Security</li>
+                        <li>Maven</li>
+                      </ul>
+                    </div>
+                    <div class="title_cont">
+                      <h5>Frontend</h5>
+                      <ul>
+                        <li>Thymeleaf</li>
+                        <li>HTML 5</li>
+                        <li>CSS 3 </li>
+                        <li>Javascript</li>
+                      </ul>
+                    </div>
+                    <div class="title_cont">
+                      <h5>Base de Datos:</h5>
+                      <ul>
+                        <li>HTML Files.</li>
+                        <li>Supporting CSS, JS files.</li>
+                        <li>Example Images.</li>
+                        <li>Documentation.</li>
+                      </ul>
+                    </div>
+
+
+                  </div>
+                  <div class="tab-pane item_nav fade" id="v-pills-support" role="tabpanel"
+                    aria-labelledby="v-pills-support-tab">
+                    <div class="title_cont">
+                      <h4>Support</h4>
+                      <p>
+                        Thank you for purchasing our template. Rakon - Creative Multi-Purpose HTML5 Template. If you
+                        have any
+                        question, please feel free to contact us.
+                      </p>
+                      <ul>
+                        <li>
+                          Created: 30 March 2020
+                        </li>
+                        <li>
+                          Latest Update: 22, Oct 2020
+                        </li>
+                        <li>
+                          By: <a href="https://themeforest.net/user/orinostu" target="_blank">Orino Studio</a>
+                        </li>
+                        <li>
+                          Email: <a href="mailto:support@orinostu.com">support@orinostu.com</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <!-- End Content -->
+          </main>
+
+
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="assets/js/jquery-3.3.1.js" type="text/javascript"></script>
+  <script src="assets/js/popper.min.js" type="text/javascript"></script>
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="assets/js/prism.js" type="text/javascript"></script>
+  <script>
+    $('body').scrollspy({
+      target: '#navbar-example3'
+    })
+  </script>
+</body>
+
+</html>
