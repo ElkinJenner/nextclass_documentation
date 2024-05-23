@@ -75,17 +75,21 @@
                       
                       <h3>2. Objetivos</h3>
                       <ul>
-                        <li><strong>Facilitar la Comunicación</strong>: Proveer un canal directo entre estudiantes y asesores para consultas y
+                        <li><strong>Facilitar la Comunicación</strong>: Proveer un canal directo entre estudiantes y profesores para consultas y
                           seguimiento de progreso académico.</li>
                         <li><strong>Gestión de Asesorías</strong>: Permitir la programación, gestión y seguimiento de sesiones de asesoría
                           académica.</li>
-                        <li><strong>Recursos Educativos</strong>: Ofrecer un repositorio centralizado de materiales y recursos educativos.
+                        <li><strong>Disponibilidad</strong>: Ofrecer al estudiante acceder en cualquier momento a las asesorias, previamente a
+                          los ajustes del profesor. También optará por separar el horario en que el estudiante tendrá el acceso.
+                        </li>
+                        <li><strong>Integración</strong>: Implementación del servicio de la aplicación web en entidades educativas.
+                          Utilizarlo para reforzar el nivel academico de sus estudiantes. 
                         </li>
                       </ul><br>
                       
                       <h3>3. Funcionalidades Principales</h3>
                       <ul>
-                        <li><strong>Registro y Autenticación</strong>: Usuarios (estudiantes y asesores) pueden registrarse y autenticarse de
+                        <li><strong>Registro y Autenticación</strong>: Usuarios (estudiantes y profesores) pueden registrarse y autenticarse de
                           forma segura.</li>
                         <li><strong>Perfil de Usuario</strong>: Gestión de perfiles, donde los usuarios pueden actualizar su información
                           personal y académica.</li>
@@ -96,10 +100,10 @@
                             <li><strong>Historial</strong>: Registro de todas las sesiones pasadas y futuras.</li>
                           </ul>
                         </li>
-                        <li><strong>Comunicación</strong>: Sistema de mensajería interna para consultas rápidas entre estudiantes y asesores.
+                        <li><strong>Comunicación</strong>: Sistema de mensajería interna para consultas rápidas entre estudiantes y profesores.
                         </li>
                         <li><strong>Recursos Educativos</strong>: Repositorio de documentos, videos y enlaces útiles compartidos por los
-                          asesores.</li>
+                          profesores.</li>
                         <li><strong>Notificaciones</strong>: Alertas y recordatorios sobre sesiones próximas y nuevas comunicaciones.</li>
                         <li><strong>Feedback y Evaluación</strong>: Sistema para que estudiantes evalúen las sesiones y asesores reciban
                           retroalimentación.</li>
@@ -144,6 +148,7 @@
                   │ ├── dao/
                   │ │ ├── AsesoriasDaoImpl.java
                   │ │ ├── CategoriaCursosDaoImpl.java
+                  │ │ ├── CrudaDao.java
                   │ │ ├── CrudaDaoImpl.java
                   │ │ ├── CursosDaoImpl.java
                   │ │ ├── EstudiantesDaoImpl.java
